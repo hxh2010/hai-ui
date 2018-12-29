@@ -1,0 +1,8 @@
+
+node_modules/_*
+build/
+src/
+static/
+.*
+config/
+index.html

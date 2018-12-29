@@ -1,0 +1,144 @@
+/* Hai Chalk Variables */
+/* Transition
+-------------------------- */
+$--all-transition = all .3s cubic-bezier(.645, .045, .355, 1);
+$--fade-transition = opacity 300ms cubic-bezier(0.23, 1, 0.32, 1);
+$--fade-linear-transition = opacity 200ms linear;
+$--md-fade-transition = transform 300ms cubic-bezier(0.23, 1, 0.32, 1), opacity 300ms cubic-bezier(0.23, 1, 0.32, 1);
+$--border-transition-base = border-color .2s cubic-bezier(.645, .045, .355, 1);
+$--color-transition-base = color .2s cubic-bezier(.645, .045, .355, 1);
+/* Colors
+-------------------------- */
+$--color-white = #fff;
+$--color-black = #000;
+$--color-primary = #409EFF;
+$--color-primary-light-1 = lighten($--color-primary, 10%); /* 53a8ff */
+$--color-primary-light-2 = lighten($--color-primary, 20%); /* 66b1ff */
+$--color-primary-light-3 = lighten($--color-primary, 30%); /* 79bbff */
+$--color-primary-light-4 = lighten($--color-primary, 40%); /* 8cc5ff */
+$--color-primary-light-5 = lighten($--color-primary, 50%); /* a0cfff */
+$--color-primary-light-6 = lighten($--color-primary, 60%); /* b3d8ff */
+$--color-primary-light-7 = lighten($--color-primary, 70%); /* c6e2ff */
+$--color-primary-light-8 = lighten($--color-primary, 80%); /* d9ecff */
+$--color-primary-light-9 = lighten($--color-primary, 90%); /* ecf5ff */
+$--color-success = #67c23a;
+$--color-warning = #e6a23c;
+$--color-danger = #f56c6c;
+$--color-info = #909399;
+$--color-success-light = lighten($--color-success, 80%);
+$--color-warning-light = lighten($--color-warning, 80%);
+$--color-danger-light = lighten($--color-danger, 80%);
+$--color-info-light = lighten($--color-info, 80%);
+$--color-success-lighter = lighten($--color-success, 90%);
+$--color-warning-lighter = lighten($--color-warning, 90%);
+$--color-danger-lighter = lighten($--color-danger, 90%);
+$--color-info-lighter = lighten($--color-info, 90%);
+$--color-text-primary = #303133;
+$--color-text-regular = #606266;
+$--color-text-secondary = #909399;
+$--color-text-placeholder = #c0c4cc;
+/* Link
+-------------------------- */
+$--link-color= $--color-primary-light-2;
+$--link-hover-color= $--color-primary;
+
+/* Background
+-------------------------- */
+$--background-color-base= #f5f7fa;
+
+/* Border
+-------------------------- */
+$--border-width-base= 1px;
+$--border-style-base= solid;
+$--border-color-base= #dcdfe6;
+$--border-color-light= #e4e7ed;
+$--border-color-lighter= #ebeef5;
+$--border-color-extra-light= #f2f6fc;
+$--border-color-hover= $--color-text-placeholder;
+$--border-base= $--border-width-base $--border-style-base $--border-color-base;
+$--border-radius-base= 4px;
+$--border-radius-small= 2px;
+$--border-radius-circle= 100%;
+
+/* Box-shadow
+-------------------------- */
+$--box-shadow-base= 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+$--box-shadow-dark= 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .12);
+$--box-shadow-light= 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+
+/* Fill
+-------------------------- */
+$--fill-base= $--color-white;
+
+/* Font
+-------------------------- */
+$--font-path= 'fonts';
+$--font-size-base= 14px;
+$--font-size-small= 13px;
+$--font-size-large= 18px;
+$--font-color-disabled-base= #bbb;
+$--font-weight-primary= 500;
+$--font-line-height-primary= 24px;
+
+/* Size
+-------------------------- */
+$--size-base= 14px;
+
+/* z-index
+-------------------------- */
+$--index-normal= 1;
+$--index-top= 1000;
+$--index-popper= 2000;
+
+/* Disable base
+-------------------------- */
+$--disabled-fill-base= $--background-color-base;
+$--disabled-color-base= $--color-text-placeholder;
+$--disabled-border-base= $--border-color-light;
+
+/* Icon
+-------------------------- */
+$--icon-color= #666;
+$--icon-color-base= $--color-info;
+/* Button
+-------------------------- */
+$--button-font-size = 14px;
+$--button-font-weight = $--font-weight-primary;
+$--button-border-radius = $--border-radius-base;
+$--button-padding-vertical = 12px;
+$--button-padding-horizontal = 20px;
+$--button-medium-font-size = 14px;
+$--button-medium-border-radius = $--border-radius-base;
+$--button-medium-padding-vertical = 10px;
+$--button-medium-padding-horizontal = 20px;
+$--button-small-font-size = 12px;
+$--button-small-border-radius = $--border-radius-base - 1;
+$--button-small-padding-vertical = 9px;
+$--button-small-padding-horizontal = 15px;
+$--button-mini-font-size = 12px;
+$--button-mini-border-radius = $--border-radius-base - 1;
+$--button-mini-padding-vertical = 7px;
+$--button-mini-padding-horizontal = 15px;
+$--button-default-color = $--color-text-regular;
+$--button-default-fill = $--color-white;
+$--button-default-border = $--border-color-base;
+$--button-disabled-color = $--color-text-placeholder;
+$--button-disabled-fill = $--color-white;
+$--button-disabled-border = $--border-color-lighter;
+$--button-primary-border = $--color-primary;
+$--button-primary-color = $--color-white;
+$--button-primary-fill = $--color-primary;
+$--button-success-border = $--color-success;
+$--button-success-color = $--color-white;
+$--button-success-fill = $--color-success;
+$--button-warning-border = $--color-warning;
+$--button-warning-color = $--color-white;
+$--button-warning-fill = $--color-warning;
+$--button-danger-border = $--color-danger;
+$--button-danger-color = $--color-white;
+$--button-danger-fill = $--color-danger;
+$--button-info-border = $--color-info;
+$--button-info-color = $--color-white;
+$--button-info-fill = $--color-info;
+$--button-hover-tint-percent = 20%;
+$--button-active-shade-percent = 10%;

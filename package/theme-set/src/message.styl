@@ -1,0 +1,117 @@
+@charset "UTF-8"
+@import "./common/var"
+
+$--message-width = 400px
+$--message-height = 250px
+
+.h-message
+  background rgba(0, 0, 0, .5)
+  position fixed
+  left 0
+  right 0
+  top 0
+  bottom 0
+  z-index 99
+  .h-message__body
+    width $--message-width
+    height $--message-height
+    box-sizing border-box
+    border-radius $--border-radius-base
+    border-width $--border-width-base
+    border-style $--border-style-base
+    border-color $--border-color-lighter
+    box-shadow $--box-shadow-dark
+    position fixed
+    left 50%
+    top 40%
+    transform translate(-50%, -50%)
+    background-color #fff //
+    overflow hidden
+    display flex
+    align-items center
+    > div
+      width 100%
+      height 100%
+      position relative
+      padding 30px
+      text-align center
+    .h-message__closeBtn.h-icon-close
+      position: absolute;
+      right: 14px;
+      top: 14px;
+      font-size: 20px;
+      color $--color-info
+      cursor pointer
+      &:hover
+        color $--color-black
+    .h-message__icon
+      font-size 130px
+    .h-message__message
+      font-size: 18px;
+      margin-top: 18px;
+      font-weight bold
+
+.h-message--info
+  .h-message__icon,
+  .h-message__message
+    color $--color-info
+
+.h-message--success
+  .h-message__icon,
+  .h-message__message
+    color $--color-success
+
+.h-message--warning
+  .h-message__icon,
+  .h-message__message
+    color $--color-warning
+
+.h-message--error
+  .h-message__icon,
+  .h-message__message
+    color $--color-danger
+
+.h-message--info
+  .h-message__icon,
+  .h-message__message
+    color $--color-info
+
+.h-message--button
+  .h-message__message
+    margin 50px 0!important
+  .h-button
+    padding-left 30px
+    padding-right  30px
+
+
+
+.h-message-fade-enter-active {
+  animation: message-fade-in .3s;
+}
+
+.h-message-fade-leave-active {
+  animation: message-fade-out .3s;
+}
+
+@keyframes message-fade-in {
+  0% {
+    transform: translate3d(0, -20px, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes message-fade-out {
+  0% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, -20px, 0);
+    opacity: 0;
+  }
+}
+

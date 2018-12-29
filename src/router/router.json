@@ -1,0 +1,86 @@
+{
+  "指南": [
+    {
+      "name": "giud",
+      "path": "/giud",
+      "desc": "介绍"
+    },
+    {
+      "name": "install",
+      "path": "/install",
+      "desc": "安装"
+    },
+    {
+      "name": "start",
+      "path": "/start",
+      "desc": "开始"
+    }
+  ],
+  "组件": [
+    {
+      "desc": "basic",
+      "path": "/component",
+      "items": [
+        {
+          "desc": "Icon 图标",
+          "name": "icon",
+          "path": "/icon"
+        },
+        {
+          "desc": "Button 按钮",
+          "name": "button",
+          "path": "/button"
+        }
+      ]
+    },
+    {
+      "desc": "notice",
+      "path": "/component",
+      "items": [
+        {
+          "desc": "message 消息提示",
+          "name": "message",
+          "path": "/message"
+        }
+      ]
+    },
+    {
+      "desc": "others",
+      "path": "/component",
+      "items": [
+        {
+          "desc": "carousel 走马灯",
+          "name": "carousel",
+          "path": "/carousel"
+        }
+      ]
+    }
+  ],
+  "笔记": [
+    {
+      "name": "test",
+      "path": "/test",
+      "type": "other"
+    },
+    {
+      "name": "create",
+      "path": "/create",
+      "desc": "项目创建"
+    },
+    {
+      "name": "markdown",
+      "path": "/markdown",
+      "desc": "Markdown"
+    },
+    {
+      "name": "theme",
+      "path": "/theme",
+      "desc": "样式管理"
+    },
+    {
+      "name": "iconfont",
+      "path": "/iconfont",
+      "desc": "Iconfont"
+    }
+  ]
+}
