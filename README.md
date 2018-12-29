@@ -2,20 +2,29 @@
 
 > A Component Library for Vue.js
 
-## Build Setup
+## 嗨！o(*￣︶￣*)o
 
-``` bash
-# install dependencies
-npm install
+----
 
-# serve with hot reload at localhost:8080
-npm run dev
+`Hai-UI` 是一款基于 `Vue` ，在学习```element-ui``` 源码的闲暇之余，**吃饱了撑着** 开发出来用于学习交流的前端 UI 组件库
 
-# build for production with minification
-npm run build
+### 由来
 
-# build for production and view the bundle analyzer report
-npm run build --report
+- 公司项目需要，毕竟每个公司都应该有自己的组件库
+- 更好的学习 `element` ，如果只是看，真的很容易忘
+- 与其不一样的是，项目的样式采用的是stylus。
+- 虽然大部分是致敬的，但也加入一些自己的组件。
+- 一些项目用到的消息提示，分页
+- 鼠标滚轮控制的走马灯
+
+
+## 安装 o(*￣︶￣*)o 使用 npm 安装
+凑个页数啦~~
+
+```bash
+npm install hai-ui --save
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### 问题
+
+在使用 `Hai-UI` 时遇到问题，或者有好的建议，欢迎提出来，反正不会改！skr，skr，O(∩_∩)O~
