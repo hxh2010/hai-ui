@@ -21,7 +21,7 @@ npm install hai-ui --save
 
 ### 使用
 
-#### 全局组件使用
+#### 全局使用
 
 可以在项目的入口文件中引入所有组件或所需组件
 
@@ -30,20 +30,6 @@ import HaiUI from 'hai-ui' // 引入组件库
 import 'hai-ui/packages/theme-set/lib/index.css' // 引入样式库
 
 Vue.use(HaiUI)
-```
-
-#### 单个组件按需使用
-
-可以局部注册所需的组件，适用于与其他框架组合使用的场景
-
-```js
-import { HButton } from 'hai-ui'
-
-export default {
-  components: {
-    HButton
-  }
-}
 ```
 
 在模板中，用 `<h-button></h-button>` 自定义标签的方式使用组件
